@@ -1,6 +1,12 @@
+/* This is the style for my index.html */
 * {
     padding: 0;
     margin: 0;
+}
+
+img{
+    max-width: 100%;
+    margin: auto;
 }
 
 body {
@@ -70,22 +76,20 @@ a:hover {
 
 #main {
    float: left;
-   width: 70%;
+   width: 65%;
    padding:20px 0px 20px 0px;
    box-sizing: border-box;
    font-size: 20px;
    color: rgb(98, 139, 194);
 }
 
-#main h1 {
+h1, h2 {
     color: rgb(98, 139, 194);
     margin-bottom: 20px;
 }
 
-#main p{
-    float: left;
-    width: 70%;
-    font-size: 18px;
+ p{
+   
     color: rgb(98, 139, 194);
     margin-bottom: 20px;
     line-height:1.6;
@@ -93,6 +97,7 @@ a:hover {
 #sidebar {
     float: right;
     width: 30%;
+    margin-left:20px;
     background: darkgrey;
     color: #f4f4f4;
     padding:20px;
@@ -109,18 +114,58 @@ a:hover {
     font-size: 16px;
  }
 
+ .mydream #main{
+    width: 100%;
+    float:none
+ }
+.boxes{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ .box {
+    
+    flex:1;
+    color: #fff;
+    padding: 15px 20px;
+   
+
+  }
+  .box .title{
+    width: 100%;
+    height:95px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .box h2{
+    font-size: 25px;
+    line-height: 1.2;
+    margin:0;
+  }
+
+  .box img{
+    max-height: 150px;
+    margin:auto;
+    object-fit: contain;
+  }
  @media(max-width:600px){
     #main{
-        width: 100%;
+      clear:both;
+      width: 100%;
         float:none;
     }
 
     #sidebar{
         width: 100%;
         float:none;
+        clear:both;
+        margin-left:0;
     }
  }
 
+ /* This is the style for my myjoy.html */
  .header {
     background-color:lightgrey;
     color: rgb(98, 139, 194);
@@ -157,3 +202,14 @@ a:hover {
       padding-top: 20px;
       text-align: center;
     }
+
+    .boxes{
+        display: block;
+    }
+
+/* This is the style for my mydream.html */
+
+
+  
+
+}
