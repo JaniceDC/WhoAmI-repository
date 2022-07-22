@@ -53,8 +53,8 @@ body {
     padding-right: 15px;
 }
 
-a:hover {
-    color: rgb(97, 245, 195);
+a:hover{
+    background-color: rgb(97, 245, 195);
 }
 
 #showcase {
@@ -83,13 +83,18 @@ a:hover {
    color: rgb(98, 139, 194);
 }
 
+#main ul li {
+    padding:0px;
+    list-style-type: disc;
+    display: list-item;
+}
+
 h1, h2 {
     color: rgb(98, 139, 194);
     margin-bottom: 20px;
 }
 
  p{
-   
     color: rgb(98, 139, 194);
     margin-bottom: 20px;
     line-height:1.6;
@@ -102,7 +107,7 @@ h1, h2 {
     color: #f4f4f4;
     padding:20px;
     box-sizing: border-box; 
-    margin-top: 200px;
+    margin-top: 80px;
  }
 
  #main-footer{
@@ -113,7 +118,7 @@ h1, h2 {
     margin-top: 30px;
     font-size: 16px;
  }
-
+/* This is the style for my mydream.html */
  .mydream #main{
     width: 100%;
     float:none
@@ -125,10 +130,11 @@ h1, h2 {
 }
 
  .box {
-    
     flex:1;
     color: #fff;
     padding: 15px 20px;
+    font-size: 20px;
+    text-align: center;
    
 
   }
@@ -139,17 +145,25 @@ h1, h2 {
     justify-content: center;
     align-items: flex-start;
   }
+
   .box h2{
     font-size: 25px;
     line-height: 1.2;
     margin:0;
+    padding-top: 10px;
   }
 
   .box img{
-    max-height: 150px;
+    max-height: 215px;
     margin:auto;
     object-fit: contain;
+    padding-bottom: 25px;
   }
+
+  .boxes{
+    display: block;
+}
+
  @media(max-width:600px){
     #main{
       clear:both;
@@ -196,20 +210,13 @@ h1, h2 {
     align-items: center;
     justify-content: space-between;
 }
+
 @media (max-width: 768px) {
     .header .container {
       flex-direction: column;
       padding-top: 20px;
       text-align: center;
     }
-
-    .boxes{
-        display: block;
-    }
-
 /* This is the style for my mydream.html */
-
-
-  
 
 }
