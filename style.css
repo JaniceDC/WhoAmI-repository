@@ -19,13 +19,16 @@ body {
 }
 
 #main-header {
-    background-color: aquamarine;
-    color: white;
+    background-color: rgb(97, 245, 195);
+    color: rgb(98, 139, 194);
+    padding-top: 40px;
+    padding-bottom:40px;
 }
 
 #Navigation {
     background-color: darkgrey;
     color: white;
+    margin: auto;
 }
 
 #Navigation ul {
@@ -40,8 +43,12 @@ body {
 #Navigation a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     padding-right: 15px;
+}
+
+a:hover {
+    color: rgb(97, 245, 195);
 }
 
 #showcase {
@@ -53,19 +60,36 @@ body {
 }
 
 #showcase h1 {
-    font-size: 20px;
-    color: lightgoldenrodyellow;
-    line-height: 1.6em;
+    font-family: 'Lucida Sans';
+    font-size: 40px;
+    color: rgb(98, 139, 194);
+    line-height: 3em;
     padding-top: 30px;
+    margin-top: 60px;
 }
 
 #main {
    float: left;
    width: 70%;
-   padding:0 30px;
-   box-sizing: border-box; 
+   padding:20px 0px 20px 0px;
+   box-sizing: border-box;
+   font-size: 20px;
+   color: rgb(98, 139, 194);
 }
 
+#main h1 {
+    color: rgb(98, 139, 194);
+    margin-bottom: 20px;
+}
+
+#main p{
+    float: left;
+    width: 70%;
+    font-size: 18px;
+    color: rgb(98, 139, 194);
+    margin-bottom: 20px;
+    line-height:1.6;
+ }
 #sidebar {
     float: right;
     width: 30%;
@@ -73,14 +97,16 @@ body {
     color: #f4f4f4;
     padding:20px;
     box-sizing: border-box; 
+    margin-top: 200px;
  }
 
  #main-footer{
-    background: #333;
+    background: darkgrey;
     color: white;
     text-align: right;
     padding: 15px;
     margin-top: 30px;
+    font-size: 16px;
  }
 
  @media(max-width:600px){
