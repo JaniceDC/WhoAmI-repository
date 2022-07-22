@@ -120,3 +120,40 @@ a:hover {
         float:none;
     }
  }
+
+ .header {
+    background-color:lightgrey;
+    color: rgb(98, 139, 194);
+    min-height: 400px;
+ }
+
+.header h1 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header p {
+    font-size: 1em;
+    line-height: 1.4;
+    margin: 10px;
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.header img {
+   flex-wrap: wrap;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .header .container {
+      flex-direction: column;
+      padding-top: 20px;
+      text-align: center;
+    }
