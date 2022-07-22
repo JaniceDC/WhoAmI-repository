@@ -1,6 +1,5 @@
 /* This is the style for my index.html */
 * {
-    padding: 0;
     margin: 0;
 }
 
@@ -160,10 +159,6 @@ h1, h2 {
     padding-bottom: 25px;
   }
 
-  .boxes{
-    display: block;
-}
-
  @media(max-width:600px){
     #main{
       clear:both;
@@ -213,10 +208,10 @@ h1, h2 {
 
 @media (max-width: 768px) {
     .header .container {
-      flex-direction: column;
+      flex-direction: row;
       padding-top: 20px;
       text-align: center;
     }
-/* This is the style for my mydream.html */
-
 }
+
+
